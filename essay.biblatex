@@ -84,6 +84,7 @@
 
 @misc{ushahidi,
   title = "{About Us | Ushahidi}",
+  author = "Ushahidi",
   url = "http://ushahidi.com/about-us"
 }
 
