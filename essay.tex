@@ -1,0 +1,121 @@
+\documentclass{article}
+
+\usepackage{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\author{Thom Wiggers}
+\title{\Huge OSS: Open Source Society? \\ \Large ICT \& Society,\\ \large Radboud University Nijmegen}
+
+\begin{document}
+\maketitle
+
+In recent years there has been a growing emphasis on using open source
+technologies in the field of software development and IT in general. (Free)
+open source software (FOSS) is code which is freely made available so that
+anyone may use it and adapt it to their own ends --- within certain limits,
+mainly about having to share your modifications with the community. FOSS
+products are produced both by a very active community and by large software
+vendors, like Google or IBM. Nowadays, it is impossible to ignore products like
+Firefox and Chromium browsers and the GNU/Linux operating system, which are
+used by millions of people on a daily basis, either directly being used by end
+users or by being the platform that is being used by most of the internet's
+back end.
+
+Open source has made a significant impact on the IT community, but also on
+business and on society as a whole. In this essay I will first explain how open
+source became the movement it is today. Then I will explain how it has changed
+business models and how the open source movement contributes to modern society.
+I will then explain why I personally contribute to open source projects. Concluding
+I will present my view on FOSS and its impact on society.
+
+In the early years of software development, software was created by large
+companies which had a monopoly in their field, like telephone companies. The
+early developers freely shared their software and developed the software in
+a open and communal process.\cite{kogut01}
+
+UNIX is an operating system which was developed in that time, mainly by US
+company AT\&T. They had shared this operating system with a number of academic
+institutions and businesses. The software community then did not restrict
+property rights and they did not define authorship. AT\&T then started to claim
+it owned UNIX to which many of the institutions and firms had made
+contributions. This triggered the software community to start establishing
+ground rules for the communal development efforts, which for instance led to
+the foundation of the Free Software Foundation by Richard Stallman, who worked
+at MIT's Artificial Intelligence Lab at the time.\cite{lerner04} He later quit
+working for MIT to work on the Free Software Foundation
+full-time.\cite{fsfstallman}
+
+The Free Software Foundation created the General Public Licence and Stallman
+started work on the GNU (``GNU's Not UNIX'') operating system. This work
+eventually led to the GNU/Linux operating system, which uses GNU software and
+a linux kernel.\cite{fsfstallman} Most servers in the world run GNU/Linux
+software distributions as their operating system; linux is a key part of the
+internet infrastructure. The General Public Licence (GPL) is the licence with
+which the GNU project and the Linux Foundation ship its software and the
+licence is used by most open source projects in the world.\cite{lerner04} The
+GPL licence is a fairly strict one: in addition to requiring the availability
+of the source of modified versions, if one wants to use GPL code in another
+piece of code they should make that code GPL-licenced as well.\cite{gpl}
+
+When in the early 1990s the internet became widespread, open source
+contributions increased tremendously. Linux, by Linus Torvalds, was one of the
+projects that emerged around that time. Different licences also emerged,
+oftentimes much more liberal than the GPL, not requiring that open source code
+could only be used in open source applications.
+
+Economist were initially baffled that people would volunteer their time to work
+on open source projects, which would then be used by people and companies for
+free. When they looked closer they noticed that there are different benefits
+than monetary ones that motivate the contributing developers and companies.
+While this includes rewards that can more or less be expressed in money, like
+additional experience or the chance to get access to venture capital, intrinsic
+motivation like pleasure and satisfaction is very much a large
+factor.\cite{lerner04}
+
+Reasons for companies to participate in open source software development can be
+the result of their adapting the code to their needs and fixing bugs, then
+releasing these changes back into the wild. They thus can benefit from using
+the software libraries that are being maintained by other people, but still be
+able to customise them to their needs.\cite{lerner04} But this is not the only
+way companies contribute: sometimes companies have released large applications
+that were initially proprietary to the public. IBM, for instance, made their
+Eclipse Integrated Development Environment, a tool used when developing
+software, open source. The value of the source code was estimated at roughly 40
+million US Dollar. While intuitively it would seem a stupid move to give away
+40 million US Dollar, it has greatly increased the popularity of the product
+and increased the market for IBMs complementary products.\cite{fitzgerald06} 
+
+Another way companies might benefit from open source is the increased
+involvement of the community and other companies in open source applications.
+Social interaction and flat organisations common in FOSS projects are a huge
+driver for innovation. \cite{conway09} 
+
+But these arguments which are based on money, don't rule out an ideological
+view from management. A lot of participants in open source of course do so for
+ideological reasons: contributing to society or to the community of
+programmers. This is a community from which programmers and companies often
+borrow techniques, software libraries and platform applications and a lot of
+people feel that they can help other people by fixing or adding things.
+
+Open source software has also allowed a lot of people who are not part of the
+programming world to benefit. For instance the ``One Laptop Per
+Child''-project, which aimed to supply millions of kids in the third world with
+cheap laptops, uses a GNU/Linux deriviated operating system which they call
+Sugar. They have customised this OS to work as good as possible with the
+hardware they distribute and include software specifically aimed at kids who
+don't have much experience with computers.\cite{sugar} This would have been
+much harder and costlier to do if they could not have built on the work of the
+Linux OS and many volunteers. 
+
+The lack of license fees also greatly beneficial to countries which are less
+developed than European ones. Labour in developing countries often is 
+very cheap when compared to licencing fees, while in the western world it often
+is the reverse. This enables those developing countries to implement a very cheap
+IT infrastructure supported by the open source software community.\cite{ghosh03}
+
+\bibliography{essay}{}
+\bibliographystyle{plain}
+
+\end{document}
