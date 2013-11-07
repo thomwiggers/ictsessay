@@ -6,7 +6,7 @@
   month  = "December"
 }
 
-@article{Kogut01,
+@article{kogut01,
   author = {Kogut, Bruce and Metiu, Anca}, 
   title = {Open-Source Software Development and Distributed Innovation},
   volume = {17}, 
@@ -75,3 +75,16 @@
   number={12},
   year={2003}
 }
+
+@misc{shirkyTED,
+  title = "Clark Shirky: How cognitive surplus will change the world",
+  author = "TED",
+  url = "http://www.ted.com/talks/clay_shirky_how_cognitive_surplus_will_change_the_world.html",
+}
+
+@misc{ushahidi,
+  title = "{About Us | Ushahidi}",
+  url = "http://ushahidi.com/about-us"
+}
+
+
